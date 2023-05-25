@@ -5,66 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fomulário</title>
+    <link rel="stylesheet" href="./assets.css/style.css">
 </head>
 <body>
-    <main>
-        <form >
+    <main class="container">
+        <form  class="formulario">
             
-        </form>
+       
         <div>
-            <div>
-                <label for="text">Nome</label>
-                <input type="name" id="Nome" name="Nome">
+            
+            <div> <div class="campo-form"></div>
+            <label for="text">Nome</label>
+            <input type="name" id="Nome" name="Nome">
+                
+
              </div>
  
             
             <div>
-               <label for="tel">Telefone</label>
-               <input type="tel" id="tel" name="tel">
+                <div class="campo-form"></div>
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel" name="tel">
             </div>
 
             <div>
+                <div class="campo-form"></div>
                 <label for="nascimento">Data de nascimento</label>
                 <input type="date" id="nascimento" name="nascimento">
             </div>
 
             <div>
+                <div class="campo-form"></div>
                 <label for="curriculo">Curriculo</label>
                 <input type="file" id="curriculo" name="curriculo">
                  
              </div>
+         </div>
 
             <div>
+                <div class="campo-form"></div>
                 <p>Sexo</p>
                 <label for="masculino"></label>
-                <span>masculino</span>
                 <input type="radio" id="masculino" name="sexo" value="masculino">
+                <span>masculino</span>
             </div>
 
             <div>
-                <label for="sexo">sexo</label>
+                <div class="campo-form"></div>
                 <label for="feminino"></label>
-                <span>feminino</span>
                 <input type="radio" id="feminino" name="sexo" value="feminino">
+                <span>feminino</span>
             </div>
 
             <div>
+                <div class="campo-form"></div>
                 <p>Curso</p>
+                
                 <label for="adm"></label>
                 <input type="checkbox" id="adm" name="adm" value="adm">
                 <span>Adiministração</span>
+               
             </div>
 
             <div>
+                <div class="campo-form"></div>
                 <label for="comp"></label>
                 <input type="checkbox" id="comp" name="comp" value="comp">
                 <span>Eng.computação</span>
+               
             </div>
+
+            <div>
+                <label for="med"></label>
+                <input type="checkbox" id="med" name="med" value="med">
+                <span>Medicina</span>
+                
+                
+            </div>
+
+            <div>
+                <label for="dir"></label>
+                <input type="checkbox" id="dir" name="dir" value="dir">
+                <span>Direito</span>
+                
+            </div>
+            <button class="form-buton"> Enviar</button>
 
 
 
 
         </div>
+    </form>
     </main>
     
 </body>

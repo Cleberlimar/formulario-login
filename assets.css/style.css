@@ -1,0 +1,25 @@
+   
+    body{
+        margin: 0px;
+    }
+    .formulario {
+        height:auto;
+        width: 100%;
+        border: 1px solid black;
+        padding: 20px;
+        gap 10px;
+        
+    }
+    .campo-form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .form-buton{ padding: ;
+
+        }
+
+
+
+     
